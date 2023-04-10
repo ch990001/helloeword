@@ -24,5 +24,10 @@ namespace helloeword
         {
             InitializeComponent();
         }
+
+        private void btn_Click(object sender, RoutedEventArgs e)
+        {
+            txt.Text = "Hello World!";
+        }
     }
 }
